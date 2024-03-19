@@ -1,0 +1,145 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:20px; 
+    margin-right: 20px;
+    padding: 0;
+    background-color: #d5eccb;
+    text-align: center;
+}
+
+header {
+    background-color: #9bbe8b;
+    color: #fff;
+    padding: 10px 0;
+   text-align: center;
+}
+.container{
+    list-style: none;
+    padding: 0%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: inline;
+    color:white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 75px;   
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.item{
+    text-align: center;
+}
+.imagen{
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.a{
+    display: inline;
+    color: #000000;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.boton{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.producto {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    margin-top: 10px;
+    color: #000000;
+}
+
+.comprar-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.acordeon {
+    width: 800px;
+    margin: 90px auto;
+    color: black;
+    background-color: white;
+    padding: 45px 45px;
+  }
+  .acordeon .contenedor {
+    position: relative;
+    margin: 10px 10px;
+  }
+  .acordeon .etiqueta {
+    position: relative;
+    padding: 10px 0;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+  }
+  .acordeon .etiqueta::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+  }
+  .acordeon .contenido {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 780px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .acordeon hr {
+    width: 100;
+    margin-left: 0;
+    border: 1px solid grey;
+  }
+      
